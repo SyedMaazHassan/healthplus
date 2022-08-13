@@ -132,10 +132,10 @@
     
 }
 .feedback{
-    border-radius: 0px;
+    border-radius: 3px !important;
 }
 #feedback .card{
-    background-color: rgba(0, 84, 105, 0.582) !important;
+    background-color: rgba(0, 84, 105, 0.466) !important;
     width: 80%;
     margin: 0 auto;
     border-radius: 5px;
@@ -146,20 +146,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 26px;
-    margin-left: -12px;
+    margin-bottom: 19px;
+    margin-left: 14px;
     border-radius: 50%;
-    padding: 11px;
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
     position: absolute; 
-    background-color: rgba(250, 123, 123, 0.541);
+    background-color: rgba(250, 0, 0, 0.582);
     /* right: 0; */
-    color: rgba(255, 0, 0, 0.527);
+    color: rgb(255, 255, 255);
+    padding: 3px;
     font-weight: bold;
     font-size: 13px;
-
-    
 }
 
 /* navbr media querry */
@@ -167,6 +165,7 @@
     .menu{
         display: block !important;
         font-size: 37px !important;
+        margin: 0 15px;
     }
     #header_2{
         display: none !important;

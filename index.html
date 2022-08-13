@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/sidebar.css">
 
 
-    <title>HealthPus</title>
+    <title>HealthPlus</title>
     <style>
         .massege {
             position: fixed;
@@ -23,28 +23,27 @@
             right: -100%;
             bottom: 3px;
             transition: 1.2s;
-            box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.144);
+            box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.144);
 
         }
-        .active{
-            transition: 1.2s;
+
+        .active {
+            transition: 0.9s;
             right: 3px;
         }
-       
-     
-        
+
         @media screen and (max-width: 550px) {
-            .massege{
+            .massege {
                 display: none !important;
             }
-            
+
         }
     </style>
 </head>
 
 <body>
 
-    <div id="all_body" style="display: none;">
+    <div id="all_body" class="m-0" style="display: none;">
 
         <!-- notification Sidebar start -->
 
@@ -112,9 +111,8 @@
                                 </li>
                                 <li class="nav-item ">
                                     <a href="#" onclick="openNav()"
-                                    
-                                    class="nav-linkd  r-border px-2 text-none d-flex align-items-center">
-                                    <div class="notifications">1</div>
+                                        class="nav-linkd  r-border px-2 text-none d-flex align-items-center">
+                                        <div class="notifications">1</div>
                                         <i class="material-icons  fs-3">notifications</i>
                                     </a>
                                 </li>
@@ -193,33 +191,34 @@
 
 
 
-          <!-- meassege -->
+        <!-- meassege -->
 
-    <div class="card text-start massege" style="z-index: 10000; width: 495px;">
-        <div class="d-flex">
-            <div class="card-body">
-                <div class="d-flex">
-                <h4 class="w-75">Welcome.! Abdul Basit</h4>
-                <i class="material-icons w-25   text-end fs-2" id="remove" style="width: 20%; cursor: pointer;">close</i>
-            </div>
-                <div class="d-flex my-2">
-                    <h4 class="card-title " style="width: 80%;">Need help selecting a Company?</h4>
-                </div>
-                <p class="card-text w-75">Tell us about your project and get
-                    introduced to the best companies
-                    for your needs.</p>
+        <div class="card text-start massege" style="z-index: 10000; width: 495px;">
+            <div class="d-flex">
+                <div class="card-body">
+                    <div class="d-flex">
+                        <h4 class="w-75">Welcome.! Abdul Basit</h4>
+                        <i class="material-icons w-25   text-end fs-2" id="remove"
+                            style="width: 20%; cursor: pointer;">close</i>
+                    </div>
+                    <div class="d-flex my-2">
+                        <h4 class="card-title " style="width: 80%;">Need help selecting a Company?</h4>
+                    </div>
+                    <p class="card-text w-75">Tell us about your project and get
+                        introduced to the best companies
+                        for your needs.</p>
                     <a href="services.html" class="text-decoration-none">
-                <button type="button" class="d-flex get_start align-items-center btn py-0 btn-primary" >Get Started <i
-                        class="material-icons text-white fs-1" >navigate_next</i></button>
+                        <button type="button" class="d-flex get_start align-items-center btn py-0 btn-primary">Get
+                            Started <i class="material-icons text-white fs-1">navigate_next</i></button>
                     </a>
+                </div>
+                <img src="img/side_dr.png" class="position-absolute" style="z-index: -1; bottom: 0; right: 0;"
+                    width="280" height="200" alt="">
             </div>
-            <img src="img/side_dr.png" class="position-absolute"
-                style="z-index: -1; bottom: 0; right: 0;" width="280" height="200" alt="">
         </div>
-    </div>
 
 
-    <!-- massege -->
+        <!-- massege -->
 
 
 
@@ -236,10 +235,9 @@
 
                 <div class="d-flex flex-column flex-shrink-0 p-3   bg-white"
                     style="width: 280px;  height: 100vh !important;">
-                    <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-                        <svg class="" width="40" height="32">
-                            <use xlink:href="#bootstrap"></use>
-                        </svg>
+                    <a href="index.html"
+                        class="d-flex align-items-center mb-3 link-dark justify-content-center text-decoration-none">
+
                         <img src="img/logo.png" width="200" alt="">
                     </a>
                     <hr class="bg-dark mt-0">
@@ -316,8 +314,10 @@
                     <h1>The Best <span>Doctor</span></h1>
                     <h2>GivesThe Least</h2>
                     <h2>Medicines</h2>
-                    <p class="text-secondary">The quantity and quality of many health care interventions are improved through the results of science, such as advanced through the medical model of health which focuses on the eradication of illness through diagnosis and effective treatment.</p>
-                    <a href="appointment.html">
+                    <p class="text-secondary">The quantity and quality of many health care interventions are improved
+                        through the results of science, such as advanced through the medical model of health which
+                        focuses on the eradication of illness through diagnosis and effective treatment.</p>
+                    <a href="appointment.html" class="banner-btn">
                         <button class="btn btn-primary">Set Appointment</button>
                     </a>
                 </div>
@@ -366,13 +366,16 @@
 
 
             <!-- 2nd Heading page` -->
-            <div class="row my-5">
+            <div class="row my-5 mx-0">
                 <div class="col-md-6">
                     <img src="img/tool_1.jpg" width="100%" alt="">
                 </div>
                 <div class="col-md-6 my-auto mt-5">
                     <h4>A completely diffrent <b style="color: rgb(2, 75, 94);">Aproach</b></h4>
-                    <p class="my-3">Access to health care may vary across countries, communities, and individuals, influenced by social and economic conditions as well as health policies. Providing health care services means "the timely use of personal health services to achieve the best possible health outcomes".[2</p>
+                    <p class="my-3">Access to health care may vary across countries, communities, and individuals,
+                        influenced by social and economic conditions as well as health policies. Providing health care
+                        services means "the timely use of personal health services to achieve the best possible health
+                        outcomes".[2</p>
 
                     <!-- Bar_1 -->
                     <h6 class="mt-4">Physology</h6>
@@ -399,10 +402,13 @@
             </div>
 
 
-            <div class="row my-3">
+            <div class="row my-3 mx-0">
                 <div class="col-md-6 my-auto">
                     <h4>We work with the <b style="color: rgb(2, 75, 94);">Best</b></h4>
-                    <p class="my-3">Health care or healthcare is the improvement of health via the prevention, diagnosis, treatment, amelioration, or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields. Medicine, dentistry, pharmacy, midwifery, nursing, </p>
+                    <p class="my-3">Health care or healthcare is the improvement of health via the prevention,
+                        diagnosis, treatment, amelioration, or cure of disease, illness, injury, and other physical and
+                        mental impairments in people. Health care is delivered by health professionals and allied health
+                        fields. Medicine, dentistry, pharmacy, midwifery, nursing, </p>
                     <button type="button" class="btn btn-primary my-2">View Appointment</button>
                 </div>
                 <div class="col-md-6">
@@ -423,7 +429,8 @@
                             <div class="card-body">
                                 <h4 class="card-title">Skin Specialist</h4>
                                 <h6>Dr. Smith</h6>
-                                <p class="card-text p-0 m-0 text-secondary">Health systems are organizations established to meet the health needs of targeted populations. According to the World Health</p>
+                                <p class="card-text p-0 m-0 text-secondary">Health systems are organizations established
+                                    to meet the health needs of targeted populations. According to the World Health</p>
 
                             </div>
                         </div>
@@ -435,7 +442,9 @@
                             <div class="card-body">
                                 <h4 class="card-title">Physology</h4>
                                 <h6>Dr. Haya</h6>
-                                <p class="card-text p-0 m-0 text-secondary"> According to the World Health Organization (WHO), According to the World Health Organization (WHO), According to the World Health </p>
+                                <p class="card-text p-0 m-0 text-secondary"> According to the World Health Organization
+                                    (WHO), According to the World Health Organization (WHO), According to the World
+                                    Health </p>
 
                             </div>
                         </div>
@@ -447,7 +456,9 @@
                             <div class="card-body">
                                 <h4 class="card-title">Neurosurgeon</h4>
                                 <h6>Dr. Muntaha</h6>
-                                <p class="card-text p-0 m-0 text-secondary">An efficient health care system can contribute to a significant part of a country's economy, development, and industrialization.  </p>
+                                <p class="card-text p-0 m-0 text-secondary">An efficient health care system can
+                                    contribute to a significant part of a country's economy, development, and
+                                    industrialization. </p>
                             </div>
                         </div>
                     </div>
@@ -471,7 +482,7 @@
                         nostrum sint reiciendis repellat suscipit magni aut quas corrupti fugiat fuga itaque excepturi
                         debitis iste? Dolore, voluptatum! Aliquam, aliquid?</p>
                 </div>
-                <div class="row  mt-0">
+                <div class="row mx-0 mt-0">
                     <div class="col-lg-3">
                         <div class="card my-3 text-start border-radius p-2  bg-light">
                             <img class="card-img-top border-radius" src="img/doctor-4.jpeg" alt="Title">
@@ -479,9 +490,9 @@
                                 <h4 class="card-title">Heart Surgeon</h4>
                                 <h6>Dr. Robert Smith</h6>
                             </div>
-                            <div class="text-center mb-2">
+                            <div class="text-center mb-2 mx-2">
                                 <a href="appointment.html">
-                                    <button type="button" class="btn btn-primary w-75">Book An Appoitment</button>
+                                    <button type="button" class="btn btn-primary w-100">Book An Appoitment</button>
                                 </a>
                             </div>
                         </div>
@@ -494,9 +505,9 @@
                                 <h4 class="card-title">Cancer Specialist</h4>
                                 <h6>Dr. Kite Midly</h6>
                             </div>
-                            <div class="text-center mb-2">
+                            <div class="text-center mb-2 mx-2">
                                 <a href="appointment.html">
-                                    <button type="button" class="btn btn-primary w-75">Book An Appoitment</button>
+                                    <button type="button" class="btn btn-primary w-100">Book An Appoitment</button>
                                 </a>
                             </div>
                         </div>
@@ -509,9 +520,9 @@
                                 <h4 class="card-title">Family Physician</h4>
                                 <h6>Dr. Will Smith</h6>
                             </div>
-                            <div class="text-center mb-2">
+                            <div class="text-center mb-2 mx-2">
                                 <a href="appointment.html">
-                                    <button type="button" class="btn btn-primary w-75">Book An Appoitment</button>
+                                    <button type="button" class="btn btn-primary w-100">Book An Appoitment</button>
                                 </a>
                             </div>
                         </div>
@@ -524,9 +535,9 @@
                                 <h4 class="card-title">Senior Nurse</h4>
                                 <h6>Dr. Alex Furgeon</h6>
                             </div>
-                            <div class="text-center mb-2">
+                            <div class="text-center mb-2 mx-2">
                                 <a href="appointment.html">
-                                    <button type="button" class="btn btn-primary w-75">Book An Appoitment</button>
+                                    <button type="button" class="btn btn-primary w-100">Book An Appoitment</button>
                                 </a>
                             </div>
                         </div>
@@ -546,11 +557,11 @@
         <footer>
             <div class=" px-0 py-0 mt-5 bg-light footer" id="hanging-icons">
                 <div id="feedback">
-                    <div class="card feedback text-start  px-2">
+                    <div class="card feedback text-start ">
                         <div class="card-body">
                             <h1 class="text-white">Feedback</h1>
                             <form>
-                                <div class="mb-3 row">
+                                <div class="mb-3  row">
                                     <div class="col-sm-6">
 
                                         <input type="email" class="my-1 form-control" placeholder="Email"
@@ -558,7 +569,7 @@
                                     </div>
                                     <div class="col-sm-6">
 
-                                        <input type="email" class="my-1 form-control" placeholder="Address"
+                                        <input type="email" class="my-1 form-control" placeholder="Contact"
                                             id="exampleInputEmail1" aria-describedby="emailHelp">
                                     </div>
 
@@ -569,25 +580,26 @@
                                 </div>
 
                                 <button type="submit" class="btn btn-primary"
-                                    style="background-color: rgb(1, 108, 161);">Submit</button>
+                                    >Submit</button>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div class="row g-4 m-0 py-5 row-cols-1 row-cols-lg-3">
+                <div class="row g-4 m-0 py-5 row-cols-1 row-cols-lg-3" style="margin-top: -100px !important;">
                     <div class="col-md-3 d-flex align-items-center justify-content-center">
                         <div class=" text-center">
-                            <img src="img/logo.png" width="75%" alt="">
+                            <a href="index.html" class="text-decoration-none">
+                                <img src="img/logo.png" width="75%" alt="">
+                            </a>
                         </div>
                     </div>
 
                     <div class="col-md-3  d-flex align-items-start">
                         <div class="">
                             <h2 class="py-2">About</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sunt, facilis laboriosam
-                                ipsam
-                                doloremque praesentium dolor itaque sint. Beatae repudiandae modi veniam totam, debitis
-                                aut?
+                            <p>The physical examination is the examination of the patient for medical signs of disease,
+                                which are objective and observable, in contrast to symptoms that are volunteered by the
+                                patient and not necessarily objectively observable.[12]
                             </p>
                         </div>
                     </div>
@@ -606,19 +618,19 @@
                         <div class="">
                             <h2 class="py-2">Social Link</h2>
                             <div>
-                                <a class="text-decoration-none" href="https://www.facebook.com">
+                                <a class="text-decoration-none" href="https://www.facebook.com" target="_blank">
                                     <img src="img/facebook.png" width="55" alt="">
                                 </a>
-                                <a class="text-decoration-none" href="https://www.facebook.com">
+                                <a class="text-decoration-none" href="https://www.linkedin.com" target="_blank">
                                     <img src="img/link.png" width="65" alt="">
                                 </a>
-                                <a class="text-decoration-none" href="https://www.facebook.com">
+                                <a class="text-decoration-none" href="https://www.twitter.com" target="_blank">
                                     <img src="img/twitter.png" width="65" alt="">
                                 </a>
                             </div>
                             <div class="my-3">
 
-                                <a class="text-decoration-none" href="https://www.facebook.com">
+                                <a class="text-decoration-none" href="https://www.google.com" target="_blank">
                                     <img src="img/google.png" width="65" alt="">
                                 </a>
                             </div>
@@ -631,7 +643,7 @@
                         Copyright@
                     </a>
 
-                    <p>Copy Right ishues</p>
+                    <p>Copy right ishue</p>
                 </div>
             </div>
         </footer>
@@ -664,12 +676,14 @@
     setInterval(() => {
         let notifications = document.querySelector('.notifications').innerHTML = counter3
 
-        
-        
+        if (counter3 == 9) {
+            counter3 = 0;
+        }
+
         counter3++;
     }, 6000);
-    
-   
+
+
     setInterval(() => {
         $('.spinner').hide();
         $('#all_body').show();
@@ -735,12 +749,13 @@
     }
 
     let inter = setInterval(() => {
-    $('.massege').addClass('active')
-}, 5000    );
-$('#remove').click(function () {
-    $('.massege').removeClass('active')
-    clearInterval(inter)
-})
+        $('.massege').addClass('active')
+    }, 5000);
+
+    $('#remove').click(function () {
+        $('.massege').removeClass('active')
+        clearInterval(inter)
+    })
 
 
     $('#searching').click(function () {

@@ -221,9 +221,11 @@
     }
 }
 
+
+
 @media screen  and (max-width: 603px){
     .text-heading{
-        width: 100% !important;
+        width: 95% !important;
         /* background-color: red; */
     }
     .text-heading h1{
@@ -257,5 +259,13 @@
     /* height: 100px; */
 }
 }
+
+@media screen and (max-width: 732px) and (min-width: 575px){
+    
+    .text-heading{
+        margin-top: 45px !important;
+    }
+     
+ }
 
 
