@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/journal.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+
+
+    <title>Contact Us</title>
+
+
+</head>
+
+<body>
+
+
+
+    <div class="row m-0 p-0  bg-dark " id="side_abar" style="height: 100vh;">
+        <div class="col-md-3  p-0">
+            <div class="d-flex w-100 flex-column m-0 p-3 flex-shrink-0  bg-white" id="nav_side" style="height: 100vh;">
+                <a href="user.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                    <img src="/img/logo.png" width="60%" alt="">
+                </a>
+                <ul class="nav mt-4  nav-pills flex-column mb-auto">
+
+                    <!-- Nav Item - Dashboard -->
+                    <li class="nav-item active ">
+                        <a id="over_view" class="nav-link my-3 py-2 d-flex align-items-center w-100" href="#">
+
+                            <i class="material-icons fs-1">streetview</i> <span class="text-dark mx-3 link">
+                                OverView</span></a>
+                    </li>
+
+                    <li class="nav-item active ">
+                        <a id="appoit-show" class="nav-link my-3 py-2  d-flex align-items-center w-100" href="#">
+                            <i class="material-icons">mail</i>
+                            <span class="text-dark mx-3 link">Appoitment </span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a id="successful" class="nav-link my-3 py-2  d-flex align-items-center w-100" href="#">
+                            <i class="material-icons">group</i>
+                            <span class="text-dark mx-3 link">Successful Patients</span></a>
+                    </li>
+
+                </ul>
+
+                <div class="dropdown mx-5 fixed-bottom my-5 ">
+                    <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+                        id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="material-icons">settings</i>
+                        <strong class="mx-2 text-secondary">Setting</strong>
+                    </a>
+                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- appoitment start -->
+        <div class="p-4 col-md-9 bg-light" id="all-data">
+
+
+
+
+
+            <div id="over-view">
+                <!-- Content Wrapper -->
+                <div id="content-wrapper" class="p-0 m-0 d-flex flex-column">
+                    <!-- Main Content -->
+                    <div id="content">
+                        <!-- Begin Page Content -->
+                        <div class="container-fluid p-4" id="side-bar">
+                            <!-- Page Heading -->
+                            <div class="d-sm-flex mt-3 align-items-center justify-content-between mb-4">
+                                <h1 class="h3 mb-0 text-gray-800">Hey..! Dr. Smeeth</h1>
+                            </div>
+                            <!-- Content Row -->
+                            <div class="row">
+                                <!-- Earnings (Monthly) Card Example -->
+                                <div class="col-md-4 mb-4">
+                                    <div class="card border-bottom-info shadow h-100 ">
+                                        <div class="card-body d-flex">
+
+                                            <div class=" d-flex align-items-center">
+                                                <div class="circle">
+                                                    <small>50%</small>
+                                                </div>
+                                                <h6 class="fw-bold mx-3 text-success"> clients (Monthly)</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Earnings (Monthly) Card Example -->
+                                <div class="col-md-4 mb-4">
+                                    <div class="card border-bottom-info shadow h-100 ">
+                                        <div class="card-body d-flex">
+
+                                            <div class=" d-flex align-items-center">
+                                                <div class="circle-2">
+                                                    <small>45%</small>
+                                                </div>
+                                                <h6 class="fw-bold  text-danger"> Operates (Monthly)</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Earnings (Monthly) Card Example -->
+                                <div class="col-md-4 mb-4">
+                                    <div class="card border-bottom-info shadow h-100 ">
+                                        <div class="card-body d-flex">
+
+                                            <div class=" d-flex align-items-center">
+                                                <div class="circle-3">
+                                                    <small>85%</small>
+                                                </div>
+                                                <h6 class="fw-bold mx-3 text-info"> Visitor (Monthly)</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Content Row -->
+                            <div class="row">
+                                <!-- Area Chart -->
+                                <div class="col-xl-12 col-lg-12">
+                                    <div class="card shadow mb-4">
+                                        <!-- Card Header - Dropdown -->
+                                        <div
+                                            class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                            <h6 class="m-0 font-weight-bold text-info">Outpatient vs. Inpatient Trend
+                                            </h6>
+                                            <div class="dropdown no-arrow">
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="chart-area row">
+
+                                                <!-- Earnings (Monthly) Card Example -->
+                                                <div class="col-md-4 d-flex justify-content-center ">
+                                                    <div class="card py-3 border-bottom-info shadow px-3"
+                                                        style="height: 250px;">
+                                                        <h5 class="text-center">Out Patient</h5>
+                                                        <div class="card-body d-flex">
+                                                            <div class=" d-flex align-items-center">
+                                                                <div class="circle-4">
+                                                                    <small>85%</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="col-md-4 d-flex justify-content-center ">
+                                                    <div class="card py-3 border-bottom-info shadow px-3"
+                                                        style="height: 250px;">
+                                                        <h5 class="text-center">Middle</h5>
+                                                        <div class="card-body d-flex">
+                                                            <div class=" d-flex align-items-center">
+                                                                <div class="circle-6">
+                                                                    <small>65%</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="col-md-4 d-flex justify-content-center ">
+                                                    <div class="card py-3 border-bottom-info shadow px-3"
+                                                        style="height: 250px;">
+                                                        <h5 class="text-center">In Patient</h5>
+                                                        <div class="card-body d-flex">
+                                                            <div class=" d-flex align-items-center">
+                                                                <div class="circle-5">
+                                                                    <small>100%</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                        <!-- End of Content Wrapper -->
+
+                    </div>
+                    <!-- End of Page Wrapper -->
+
+                    <!-- Scroll to Top Button-->
+                    <a class="scroll-to-top rounded" href="#page-top">
+                        <i class="fas fa-angle-up"></i>
+                    </a>
+
+                    <!-- Logout Modal-->
+                    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">Select "Logout" below if you are ready to end your current
+                                    session.
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                                    <a class="btn btn-primary" href="login.html">Logout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Appoint Form -->
+            <div id="appoitment">
+                <div class="row ">
+                    <div class="col-sm-12">
+                        <div class="card appoitment-card text-start p-3 my-3">
+                            <h3 class="m-0 p-0 text-secondary">Patient's Appointment</h3>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+            <!-- Compelet Task -->
+
+
+            <div id="Compelet_task">
+                <div class="row ">
+                    <div class="col-sm-12">
+                        <div class="card appoitment-card text-start p-3 my-3">
+                            <h3 class="m-0 p-0 text-secondary">Successlful Patient's</h3>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="my-2">
+                    <div class="col-sm-12">
+                        <div class="">
+                            <button class="btn btn-primary new">New</button>
+
+                            <div id="success-ful-data">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+          <!-- modal -->
+
+
+
+    <script>
+        $('#appoit-show').click(function () {
+            $('#appoitment').show();
+            $('#Compelet_task').hide();
+            $('#over-view').hide();
+        })
+        $('#over_view').click(function () {
+            $('#appoitment').hide();
+            $('#Compelet_task').hide();
+            $('#over-view').show();
+        })
+
+        $('#successful').click(function () {
+            $('#Compelet_task').show();
+            $('#appoitment').hide();
+            $('#over-view').hide();
+
+
+        })
+    </script>
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script/navbar.js"></script>
+
+</body>
+<script>
+
+    let obj2 = [
+        {
+            'name': 'Syed Eibad',
+            'contact': '+923182171364',
+            'depart ': 'Fmily Medicine',
+            'time': '02:50 pm',
+            'date': '02/07/2022',
+            'year': 'Male, 19yr'
+
+        },
+        {
+            'name': 'Abdul Basit',
+            'contact': '+92318212855',
+            'depart ': 'Fmily Medicine',
+            'time': '08:30 pm',
+            'date': '01/08/2022',
+            'year': 'Male, 22yr'
+
+
+
+        },
+        {
+            'name': 'Mohsin',
+            'contact': '+92182548355',
+            'depart ': 'Neurology',
+            'time': '09:00 am',
+            'date': '25/12/2022',
+            'year': 'Male, 24yr'
+
+        },
+        {
+            'name': 'Ehtisham',
+            'contact': '+92182548355',
+            'depart ': 'Neurology',
+            'time': '09:00 am',
+            'date': '25/12/2022',
+            'year': 'Male, 24yr'
+
+
+
+        }
+    ]
+
+
+    for (let a = 0; a < obj2.length; a++) {
+        const element1 = obj2[a];
+        // console.log(element);
+
+
+        let successful_html = `
+<div class="row p-1 my-2">
+                                <div class="col-md-12 m-0">
+                                    <div class="card border-radius m-0 p-3    text-start">
+                                        <div class="row align-items-center m-0">
+                                            <div class="col-sm-3  d-flex">
+
+                                                <img src="https://github.com/mdo.png" alt="mdo" width="45" height="45"
+                                                    class="rounded-circle">
+                                                <div class="mx-3">
+                                                    <h6 class="m-0 p-0">${element1.name}</h6>
+                                                    <h6 class="m-0 p-0 text-secondary">${element1.year}</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3  d-flex">
+                                                <h6 class="text-secondary">${element1.contact}4</h6>
+                                            </div>
+                                            <div class="col-sm-2  d-flex">
+                                                <h6 class="text-secondary time">${element1.time}</h6>
+                                            </div>
+                                            <div class="col-sm-2  d-flex">
+                                                <h6 class="text-secondary">${element1.date}</h6>
+                                            </div>
+                                            <div class="col-sm-2  d-flex align-items-center">
+                                                <h6 class="text-secondary d-flex align-items-center">Compelete <i
+                                                        class="mx-2 material-icons done color-1">done</i></h6>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+`
+
+        document.getElementById('success-ful-data').innerHTML += successful_html
+    }
+
+
+
+
+
+
+
+
+    let obj1 = [
+        {
+            'name': 'Syed Maaz Hassan',
+            'contact': '+923182171364',
+            'depart ': 'Fmily Medicine',
+            'appoitment': '02:50 pm',
+            'dsc': 'It is respectfully stated that I have been suffering from fever for the last three days and require leave for the remaining of the week.'
+
+        },
+        {
+            'name': 'Syed Eibad Hassan',
+            'contact': '+92318212855',
+            'depart ': 'Fmily Medicine',
+            'appoitment': '02:50 pm',
+            'dsc': 'The medicines doctor prescribed me are of high dosage, which makes me tired and drowsy. It is possible that it will take more two days to recuperate. I have to take a leave for two more '
+
+        },
+        {
+            'name': 'Mohsin',
+            'contact': '+92182548355',
+            'depart ': 'Neurology',
+            'appoitment': '09:00 pm',
+            'dsc': 'I beg to inform you that I have a high fever for past two days. I ate something unhealthy which disturbed my stomach and caused severe food poisoning which led me to high temperature and agitation. I have not been able to get up and do anything by my own self. It is causing severe headache and weakness. I am taking proper medication to recover from sudden temperat'
+
+        },
+        {
+            'name': 'Ehtisham',
+            'contact': '+921825485528',
+            'depart ': 'Dermotology',
+            'appoitment': '10:00 pm',
+            'dsc': ' I ate something unhealthy which disturbed my stomach and caused severe food poisoning which led me to high temperature and agitation. I have not been able to get up and do anything by my own self. It is causing severe headache and weakness. I am taking proper medication to recover from sudden temperat'
+
+        }
+    ]
+
+    console.log(obj1);
+
+    // all_data.push(obj1)
+
+    // console.log(all_data);
+
+
+    for (let a = 0; a < obj1.length; a++) {
+        const element = obj1[a];
+        console.log(element);
+
+
+        let appointment_html = `
+<div class="mb-4 ">
+        <div class="col-sm-12">
+            <div class="card  request-card px-4 pt-4 text-start">
+                <div class="d-flex ">
+                    <div class="d-flex p-0 w-75" style="height: 60px !important;">
+                        <img src="https://github.com/mdo.png" alt="mdo" width="45" height="45"
+                            class="rounded-circle">
+                        <div class="mx-2">
+                            <p class="text-dark fw-bold p-0 m-0">${element.name}</p>
+                            <p class="p-0 mb-5  test-secondary font-weigth">28 yrs,
+                                Male</p>
+                        </div>
+                    </div>
+                    <div class=" w-25 d-flex justify-content-end">
+                        <i class="material-icons cr-ponter " onclick="popup('1')" id="chat-option">more_vert</i>
+                    </div>
+                </div>
+                <div class="row mt-2 px-5 align-items-center">
+                    <div class="col-sm-6">
+                        <p class="text-dark p-0 m-0 my-1 fw-bold">Contact</p>
+                        <h6 class=" p-0 m-0 test-secondary font-weigth">${element.contact}</h6>
+                    </div>
+
+                    <!-- add bund -->
+                    <div class=" col-sm-6  d-flex align-items-center px-5 justify-content-end">
+                        <div>
+                            <p class="text-dark p-0  my-1 fw-bold d-block">Appoitment</p>
+                            <h6 class=" p-0 m-0 test-secondary font-weigth">${element.appoitment}</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-2 px-5 w-100  align-items-center">
+                    <div class="col-sm-6">
+                        <p class="text-dark p-0 m-0 my-1 fw-bold">Depart</p>
+                        <h6 class=" p-0 m-0 test-secondary font-weigth">Test</h6>
+                    </div>
+
+                    <div class="col-sm-6  d-flex align-items-center justify-content-end mt-2">
+                        <p class="active-2 w-25 px-4 py-1 text-dark fw-bold">
+                            active</p>
+                    </div>
+                    
+                </div>
+                <div class="row my-2 w-100 px-5 align-items-center">
+                    <div class="col-md-6">
+                        <p class="text-dark p-0 m-0 my-1 test-secondary fw-bold">Description</p>
+                        <h6 class=" p-0 m-0 my-2 font-weigth">${element.dsc}</h6>
+                    </div>
+
+                    <div class="col-md-6 d-flex justify-content-end ">
+                        <button type="button" class="btn btn-primary mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Add</button>
+                        <button type="button" class="btn btn-primary">Continue..</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+`
+
+        document.getElementById('appoitment').innerHTML += appointment_html
+    }
+
+</script>
+
+
+
+
+
+
+</html>
