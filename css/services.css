@@ -21,6 +21,12 @@
 }
 
 
+.service-card{
+    border: 10px solid white;
+    box-shadow: 0 0 15px 1px rgba(2, 190, 253, 0.068);
+    border-radius: 25px;
+}
+
 /* counter css */
 .counter{
     /* background-color: rgba(2, 76, 94, 0.493); */
@@ -61,7 +67,7 @@
 
 
 .btn-primary{
-    background-color: rgba(5, 91, 112, 0.897);
+    background-color: rgba(5, 91, 112, 0.788);
     border: none;
 }
 .btn-primary:hover{

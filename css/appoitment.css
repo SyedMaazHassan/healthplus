@@ -13,11 +13,13 @@
 
 #main-form{
     /* box-shadow: 0 0 2px 1px grey; */
+    /* box-shadow: 0 0 15px 1px rgb(2 190 253 / 14%); */
     position: relative;
     top: -110px;
 }
 .form{
-    box-shadow: 1px 1px 4px 0px rgba(211, 208, 208, 0.692);
+    box-shadow: 0 0 15px 1px rgba(2, 190, 253, 0.055);
+
 
 }
 .input{

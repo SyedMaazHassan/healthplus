@@ -1,8 +1,37 @@
+
+.sign_in:hover{
+    color: white !important;
+}
+.btn-outline-primary{
+    border-color:rgba(5, 91, 112, 0.788) ;
+    color: black;
+}
+.btn-outline-primary:hover{
+    background-color: rgba(5, 91, 112, 0.788);
+    border-color:rgba(5, 91, 112, 0.788);
+}
+.btn-outline-primary:focus{
+    box-shadow: 0 0 0 3px rgba(5, 91, 112, 0.377);
+    border-color:rgba(5, 91, 112, 0.788);
+}
+.btn-outline-primary:active{
+    box-shadow: 0 0 0 3px rgba(5, 91, 112, 0.377);
+    border-color:rgba(5, 91, 112, 0.788);
+}
+/* input class */
+.form-control:focus{
+    box-shadow: 0 0 0 3px  rgba(1, 96, 117, 0.205) !important;
+    border-color: rgba(0, 44, 54, 0.205);
+}
+
 .border-radius{
     border-radius: 12px;
 }
 .font-size{
     font-size: 10px;
+}
+.text_primary{
+    color: rgba(1, 53, 66, 0.753) !important;
 }
 .color{
     background-color:rgba(0, 44, 54, 0.753) ;
@@ -10,6 +39,10 @@
 }
 .nav-linked{
     text-decoration: none;
+}
+.active-1{
+    border-bottom: 5px solid ;
+    background-color: rgba(1, 53, 66, 0.034);
 }
 
  .main-navbar{
@@ -28,7 +61,9 @@
 }
 
 
-
+.bg-none{
+    background-color: none !important;
+}
 
 .text-none{
     text-decoration: none !important;
@@ -94,7 +129,7 @@
 }
 
 .btn-primary{
-    background-color: rgba(5, 91, 112, 0.897);
+    background-color: rgba(5, 91, 112, 0.788);
     border: none;
 }
 .btn-primary:hover{
@@ -141,27 +176,39 @@
     border-radius: 5px;
 }
 
-.notifications{
-    border: 1px solid gba(250, 123, 123, 0.541);
+#notifications{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 19px;
-    margin-left: 14px;
+    margin-bottom: 21px;
+    margin-left: 31px;
     border-radius: 50%;
     height: 18px;
     width: 18px;
-    position: absolute; 
-    background-color: rgba(250, 0, 0, 0.582);
+    position: absolute;
+    background-color: rgb(218, 0, 0);
     /* right: 0; */
     color: rgb(255, 255, 255);
     padding: 3px;
     font-weight: bold;
     font-size: 13px;
+    border: 1px solid white;
+}
+
+.font-weight-size{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text-primary{
+    color: rgba(0, 84, 105, 0.904) !important;
 }
 
 /* navbr media querry */
 @media screen and (max-width: 993px) {
+    .user_profile_dp{
+        display: none !important;
+    }
     .menu{
         display: block !important;
         font-size: 37px !important;
