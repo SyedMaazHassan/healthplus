@@ -2,10 +2,10 @@ function openNav() {
   document.getElementById("mySidenav").style.width = "350px";
   // $("#mySidenav").css('box-shadow', '10px 10px 10px 15px #cccccc');
   $("#overay").show();
+  document.getElementById('notifications').style.opacity= '0'
 }
 
 function closeNav() {
-  console.log("closed clicked");
   document.getElementById("mySidenav").style.width = "0";
   $("#overay").hide();
   // $("#mySidenav").css('box-shadow', 'none');
